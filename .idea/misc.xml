@@ -6,16 +6,34 @@
       <MTProjectMetadataState>
         <option name="migrated" value="true" />
         <option name="pristineConfig" value="false" />
-        <option name="userId" value="-b4e430b:19a5c9847b9:-7ff7" />
+        <option name="userId" value="-702ace9e:19a48a962ed:-7ffb" />
       </MTProjectMetadataState>
     </option>
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/is-prime/pom.xml" />
+        <option value="$PROJECT_DIR$/calculator/pom.xml" />
+        <option value="$PROJECT_DIR$/collections/pom.xml" />
         <option value="$PROJECT_DIR$/even-number/pom.xml" />
+        <option value="$PROJECT_DIR$/final-keyword/pom.xml" />
+        <option value="$PROJECT_DIR$/equals-and-hashcode/pom.xml" />
+        <option value="$PROJECT_DIR$/constructor-and-super/pom.xml" />
+        <option value="$PROJECT_DIR$/immutable-mutable-class/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <selected-state>
+          <State>
+            <id>User defined</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_25" default="true" project-jdk-name="openjdk-25" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

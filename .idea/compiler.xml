@@ -6,7 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="final-keyword" />
+        <module name="calculator" />
+        <module name="collections" />
+        <module name="constructor-and-super" />
+        <module name="equals-and-hashcode" />
+        <module name="immutable-mutable-class" />
         <module name="even-number" />
+        <module name="is-prime" />
       </profile>
     </annotationProcessing>
   </component>
