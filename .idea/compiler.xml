@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="final-keyword" />
         <module name="calculator" />
+        <module name="comparator" />
         <module name="collections" />
         <module name="constructor-and-super" />
         <module name="equals-and-hashcode" />
         <module name="immutable-mutable-class" />
+        <module name="stream-api" />
         <module name="even-number" />
         <module name="is-prime" />
       </profile>
