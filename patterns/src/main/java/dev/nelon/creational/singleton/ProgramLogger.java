@@ -1,16 +1,25 @@
 package dev.nelon.creational.singleton;
 
 public class ProgramLogger {
-	private static ProgramLogger programLogger;
+	//	хранит единственный экземпляр
+	private static volatile ProgramLogger programLogger;
 	private static String logFile = "This is log file. \n\n";
 
-	public static ProgramLogger getProgramLogger() {
+	//	глобальная точка доступа
+	public static synchronized ProgramLogger getProgramLogger() {
+		//👉 Lazy Initialization Singleton
+		// Объект создаётся только при первом вызове getProgramLogger().
 		if (programLogger == null) {
-			programLogger = new ProgramLogger();
+			synchronized (ProgramLogger.class) {
+				if (programLogger == null) {
+					programLogger = new ProgramLogger();
+				}
+			}
 		}
 		return programLogger;
 	}
 
+	//	запрещает создание через new
 	private ProgramLogger() {
 	}
 
