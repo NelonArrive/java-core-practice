@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="137646b9-01b5-400e-9de9-7fef064ae1ff" name="Changes" comment="feat: add demos for stream operations including collect, map, filter, and reduce">
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/CppDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/CppDeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/DeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/JavaDeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/PhpDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/PhpDeveloperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/car/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/car/AudiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/car/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/car/BMWFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/car/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/factory/car/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/singleton/ProgramLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/singleton/ProgramRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/main/java/dev/nelon/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/copilot.data.migration.ask.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/copilot.data.migration.edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/dictionaries/nelon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/even-number/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/copilot.data.migration.ask.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/copilot.data.migration.edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/dictionaries/nelon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/is-prime/src/main/java/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/nelon/Documents/Projects/java/java-core-practice" value="38wFobmvC6KDMmC2xK1TrbU0Ygr" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="GPT-5 mini" />
+      <entry key="agent-panel" value="GPT-5 mini" />
+      <entry key="edit-panel" value="GPT-5 mini" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NelonArrive"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NelonArrive/java-core-practice.git",
+    "accountId": "ec097a14-52a9-48d4-a2fd-9924bfc83d7b"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/stream-api/src/main/java/dev/nelon/collect/CollectToListDemo.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="38wFobmvC6KDMmC2xK1TrbU0Ygr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListDemo.executor": "Run",
+    "Application.CollectToListDemo.executor": "Run",
+    "Application.CopyOnWriteArrayListDemo.executor": "Run",
+    "Application.CustomObjectSetDemo.executor": "Run",
+    "Application.EnumSetDemo.executor": "Run",
+    "Application.GroupingByDemo.executor": "Run",
+    "Application.HashSetDemo.executor": "Run",
+    "Application.LinkedListQueueDemo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PriorityQueueDemo.executor": "Run",
+    "Application.Program.executor": "Run",
+    "Application.ProgramRunner.executor": "Run",
+    "Application.RemoveEqualsDemo.executor": "Run",
+    "Application.StreamBasicDemo.executor": "Run",
+    "Application.TreeSetDemo.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nelon/Documents/Projects/java/java-core-practice",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/nelon/Documents/Projects/java/java-core-practice/patterns/src/main/java/dev/nelon/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.18359375",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.nelon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nelon\Documents\Projects\java\java-core-practice\comparator\src\main\java\dev\nelon\comparable" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProgramRunner">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.nelon.factory.car.Main" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.nelon.factory.car.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.nelon.factory.Program" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.nelon.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.nelon.creational.singleton.ProgramRunner" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.nelon.creational.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProgramRunner" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="137646b9-01b5-400e-9de9-7fef064ae1ff" name="Changes" comment="" />
+      <created>1759562591420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759562591420</updated>
+      <workItem from="1769702906578" duration="3534000" />
+      <workItem from="1769746215061" duration="5703000" />
+      <workItem from="1769835827779" duration="14102000" />
+      <workItem from="1769913622974" duration="6064000" />
+      <workItem from="1770034162887" duration="8983000" />
+      <workItem from="1772445845754" duration="12433000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: add demos for ArrayDeque, ArrayList, CopyOnWriteArrayList, and various Set implementations">
+      <option name="closed" value="true" />
+      <created>1769752983534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769752983534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add demos for HashMap, HashSet, Hashtable, LinkedHashMap, and TreeSet">
+      <option name="closed" value="true" />
+      <created>1770034324417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770034324417</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add demos for stream operations including collect, map, filter, and reduce">
+      <option name="closed" value="true" />
+      <created>1770041251400</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770041251400</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add demos for stream operations including collect, map, filter, and reduce" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add demos for stream operations including collect, map, filter, and reduce" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

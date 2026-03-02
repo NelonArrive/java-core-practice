@@ -7,16 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="final-keyword" />
-        <module name="calculator" />
         <module name="comparator" />
         <module name="collections" />
         <module name="constructor-and-super" />
+        <module name="patterns" />
         <module name="equals-and-hashcode" />
         <module name="immutable-mutable-class" />
         <module name="stream-api" />
-        <module name="even-number" />
-        <module name="is-prime" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="calculator" target="21" />
+      <module name="even-number" target="25" />
+      <module name="is-prime" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
