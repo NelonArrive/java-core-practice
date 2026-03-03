@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="137646b9-01b5-400e-9de9-7fef064ae1ff" name="Changes" comment="feat: add demos for stream operations including collect, map, filter, and reduce">
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/GUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/MacButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/MacCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/MacFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/WindowsCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/abstract_factory/WindowsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/builder/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/Copyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/ProjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/VersionControlRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/car/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/singleton/ProgramLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/singleton/ProgramLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/target/classes/dev/nelon/creational/singleton/ProgramLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/target/classes/dev/nelon/creational/singleton/ProgramLogger.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +26,9 @@
   </component>
   <component name="CopilotUserSelectedModel">
     <selectedModels>
+      <entry key="edit-panel" value="GPT-5 mini" />
       <entry key="chat-panel" value="GPT-5 mini" />
       <entry key="agent-panel" value="GPT-5 mini" />
-      <entry key="edit-panel" value="GPT-5 mini" />
     </selectedModels>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -48,18 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "NelonArrive"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NelonArrive&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NelonArrive/java-core-practice.git",
-    "accountId": "ec097a14-52a9-48d4-a2fd-9924bfc83d7b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NelonArrive/java-core-practice.git&quot;,
+    &quot;accountId&quot;: &quot;ec097a14-52a9-48d4-a2fd-9924bfc83d7b&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/stream-api/src/main/java/dev/nelon/collect/CollectToListDemo.java" root0="SKIP_INSPECTION" />
   </component>
@@ -99,6 +93,7 @@
     "Application.RemoveEqualsDemo.executor": "Run",
     "Application.StreamBasicDemo.executor": "Run",
     "Application.TreeSetDemo.executor": "Run",
+    "Application.VersionControlRunner.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -153,7 +148,8 @@
       <workItem from="1769835827779" duration="14102000" />
       <workItem from="1769913622974" duration="6064000" />
       <workItem from="1770034162887" duration="8983000" />
-      <workItem from="1772445845754" duration="14825000" />
+      <workItem from="1772445845754" duration="17058000" />
+      <workItem from="1772503699874" duration="3028000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add demos for ArrayDeque, ArrayList, CopyOnWriteArrayList, and various Set implementations">
       <option name="closed" value="true" />
