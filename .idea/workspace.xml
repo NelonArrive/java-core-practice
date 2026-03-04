@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="137646b9-01b5-400e-9de9-7fef064ae1ff" name="Changes" comment="feat: add demos for stream operations including collect, map, filter, and reduce">
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/builder/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/Copyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/ProjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/VersionControlRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/creational/prototype/car/Main.java" afterDir="false" />
+    <list default="true" id="137646b9-01b5-400e-9de9-7fef064ae1ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/adapter/AdapterJavaToDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/adapter/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/adapter/DatabaseRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/adapter/JavaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/BlueColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/RedColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/city/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/city/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/city/ExpressDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/city/Kiev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/city/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/city/Odessa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/dev/nelon/structural/bridge/city/StandardDelivery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/target/classes/dev/nelon/creational/prototype/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/target/classes/dev/nelon/creational/prototype/Project.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +94,7 @@
     "Application.CollectToListDemo.executor": "Run",
     "Application.CopyOnWriteArrayListDemo.executor": "Run",
     "Application.CustomObjectSetDemo.executor": "Run",
+    "Application.DatabaseRunner.executor": "Run",
     "Application.EnumSetDemo.executor": "Run",
     "Application.GroupingByDemo.executor": "Run",
     "Application.HashSetDemo.executor": "Run",
@@ -112,7 +125,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/nelon/Documents/Projects/java/java-core-practice/patterns/src/main/java/dev/nelon/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.18359375",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "actions.on.save",
@@ -149,7 +162,9 @@
       <workItem from="1769913622974" duration="6064000" />
       <workItem from="1770034162887" duration="8983000" />
       <workItem from="1772445845754" duration="17058000" />
-      <workItem from="1772503699874" duration="3028000" />
+      <workItem from="1772503699874" duration="3805000" />
+      <workItem from="1772617700737" duration="1406000" />
+      <workItem from="1772621352558" duration="7582000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add demos for ArrayDeque, ArrayList, CopyOnWriteArrayList, and various Set implementations">
       <option name="closed" value="true" />
